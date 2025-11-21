@@ -1,9 +1,9 @@
 import React from "react";
-import heroPlant from "../assets/c8eb5b1abede1308e0eaf899d1f7faae62a0c2f6.png";
-import rectangle from "../assets/Rectangle 6[1].png";
-import ronnie from "../assets/72419c36cae7ef6f9c25b97e39a231fc9059935c.png";
-import img from "../assets/image.png";
-import ra from "../assets/65c9b2e2178b53eba63dace1c4f1d8c96673ade2.png";
+import heroPlant from "/c8eb5b1abede1308e0eaf899d1f7faae62a0c2f6.png";
+import rectangle from "/Rectangle 6[1].png";
+import ronnie from "/72419c36cae7ef6f9c25b97e39a231fc9059935c.png";
+import img from "/image.png";
+import ra from "/65c9b2e2178b53eba63dace1c4f1d8c96673ade2.png";
 export default function Heroplant() {
     return(
           <section className="relative px-14 pt-10 pb-28">
@@ -79,4 +79,5 @@ export default function Heroplant() {
          </div>
          </section>
     );
+
 }
