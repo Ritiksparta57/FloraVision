@@ -1,10 +1,10 @@
- import heroPlant from "../assets/c8eb5b1abede1308e0eaf899d1f7faae62a0c2f6.png";
-import bg1 from "../assets/b48312dbddc890f7f35ef3964ae1e7900b89782c.png";
-import bg2 from "../assets/95e728282f4fb901ee2edc80783c2fbd7df490c2.png";
-import bg4 from "../assets/5196aba58f7006d90ec0712ac1d01688cde1a537.png";
-import sansa from "../assets/eb0351a5771ed55c7f3454bcce697dfe63237769.png";
-import cactus from "../assets/6d90916507b2b3030961c99c6af0ebac97b86c78.png";
-import Card from "../components/card.jsx";
+ import heroPlant from "/c8eb5b1abede1308e0eaf899d1f7faae62a0c2f6.png";
+import bg1 from "/b48312dbddc890f7f35ef3964ae1e7900b89782c.png";
+import bg2 from "/95e728282f4fb901ee2edc80783c2fbd7df490c2.png";
+import bg4 from "/5196aba58f7006d90ec0712ac1d01688cde1a537.png";
+import sansa from "/eb0351a5771ed55c7f3454bcce697dfe63237769.png";
+import cactus from "/6d90916507b2b3030961c99c6af0ebac97b86c78.png";
+import Card from "/card.jsx";
 export default function TopSell() {
     return( 
  <section className="px-14 py-20">
@@ -53,4 +53,5 @@ export default function TopSell() {
             </div>
           </section>
     );
+
 }
