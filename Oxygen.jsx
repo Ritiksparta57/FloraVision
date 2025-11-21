@@ -1,4 +1,4 @@
-import heroPlant from "../assets/c8eb5b1abede1308e0eaf899d1f7faae62a0c2f6.png";
+import heroPlant from "/c8eb5b1abede1308e0eaf899d1f7faae62a0c2f6.png";
 export default function Oxygen() {  
     return(
   <section className="px-14 py-10">
@@ -34,4 +34,5 @@ export default function Oxygen() {
         </div>
       </section>
     );
+
 }
