@@ -1,5 +1,5 @@
-import bg1 from "../assets/b48312dbddc890f7f35ef3964ae1e7900b89782c.png";
-import bg2 from "../assets/95e728282f4fb901ee2edc80783c2fbd7df490c2.png";
+import bg1 from "/b48312dbddc890f7f35ef3964ae1e7900b89782c.png";
+import bg2 from "/95e728282f4fb901ee2edc80783c2fbd7df490c2.png";
 import { FiSearch, FiShoppingBag } from "react-icons/fi";
 export default function Trending() {
     return(
@@ -62,4 +62,5 @@ export default function Trending() {
         </div>
       </section>
     );
+
 }
