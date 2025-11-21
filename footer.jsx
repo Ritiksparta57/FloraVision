@@ -1,4 +1,4 @@
-import logo from "../assets/5e88b52117aa40baa6a96e43b5c4e57858edaa47.png";
+import logo from "/5e88b52117aa40baa6a96e43b5c4e57858edaa47.png";
 export  default function Footer() {
     return(
 <footer className="px-14 py-16 w-full">
@@ -57,4 +57,5 @@ export  default function Footer() {
 </div>
       </footer>
     );
+
 }
