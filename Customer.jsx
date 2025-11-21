@@ -1,6 +1,6 @@
-import carol from "../assets/04f4a376d1869488dd43f1a5e57a36f5cdf73be4.png";
-import lula from "../assets/8af347a65acb49fcb29cfac2ba705f2b27151f3f.jpg";
-import shelly from "../assets/a5003c9c04bdc265d997eb88ecb49b2ed88c8428.png";
+import carol from "/04f4a376d1869488dd43f1a5e57a36f5cdf73be4.png";
+import lula from "/8af347a65acb49fcb29cfac2ba705f2b27151f3f.jpg";
+import shelly from "/a5003c9c04bdc265d997eb88ecb49b2ed88c8428.png";
 
 export default function Customer() {
     return(
@@ -65,4 +65,5 @@ export default function Customer() {
       </div>
     </section>
     );
+
 }
