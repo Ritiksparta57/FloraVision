@@ -1,7 +1,7 @@
 import React from "react";
 import { FiSearch, FiShoppingBag } from "react-icons/fi";
 import { HiMenu } from "react-icons/hi";
-import logo from "../assets/5e88b52117aa40baa6a96e43b5c4e57858edaa47.png";
+import logo from "/5e88b52117aa40baa6a96e43b5c4e57858edaa47.png";
 export default function Navbar() {
     return(
          <nav className="w-full flex items-center justify-between px-14 py-4">
@@ -32,5 +32,6 @@ export default function Navbar() {
                </nav>
     );
 }  
+
 
 
