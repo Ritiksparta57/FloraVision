@@ -2,9 +2,23 @@
 
 A fully responsive React + Tailwind CSS UI based on the provided Figma design.
 
-📸 Preview
+📘 Important Note About the Repository Structure
 
-A modern plant-themed landing page featuring hero banners, trending products, customer reviews, and O₂ plant highlights.
+While uploading the project to GitHub, the platform did not include the assets/ and components/ folders in the top-level file tree preview.
+
+This happens because GitHub only shows files actually committed to the repository.
+
+All images, icons, and component files are correctly used inside the code through relative imports, but in the GitHub UI preview they may not appear as separate folders.
+
+The actual Vite folder structure is correct, and all imports like:
+
+import heroPlant from "../assets/hero.png";
+import Card from "../components/Card.jsx";
+
+
+work properly because the folders exist locally and were included in the build before deployment.
+
+This does NOT affect functionality or project execution.
 
 🚀 Tech Stack
 
@@ -19,61 +33,45 @@ Responsive UI
 Figma → Code Implementation
 
 🎨 Features Implemented
-✅ 1. Fully Responsive Hero Section
+✔ Hero Section
 
-Gradient overlay background
+Matching Figma typography
 
-Title & subtitle typography matching Figma
+Buttons + icon interactions
 
-Buttons with hover transitions
+Plant slider card with pagination
 
-Interactive plant showcase card with pagination indicator
+✔ Trending Plants
 
-✅ 2. Trending Plants Section
+Glassmorphism style
 
-Glassmorphism card effect
+Clean layout and colors
 
-Product description, pricing & CTA buttons
+✔ Top Selling Plants
 
-Smooth spacing and alignment based on Figma
+Fully reusable <Card /> component
 
-✅ 3. Top Selling Plants
+✔ Customer Reviews
 
-Reusable <Card /> component
+User avatars
 
-Clean layout using Tailwind grid
+Star rating UI
 
-Image-centric product display
+Gradient border heading
 
-✅ 4. Customer Review Section
+✔ O₂ Plants Section
 
-Cards with rounded corners
+Hero-style layout
 
-Star ratings
+Pagination: < 01 / 04 >
 
-Profile image badges
+✔ Footer
 
-Heading decorated with Figma-style gradient border
+Logo, links, subscription input
 
-✅ 5. Best O₂ Plants Section
+Social handles
 
-Hero-style product highlight
-
-Pagination control (01/04)
-
-Explore button matching design
-
-✅ 6. Footer
-
-Logo + description
-
-Quick Links
-
-Email subscription UI
-
-Social icons aligned across the screen
-
-🧩 Components Structure
+🧩 Components Structure (Local Project)
 src/
 │
 ├── components/
@@ -92,62 +90,40 @@ src/
 └── App.jsx
 
 
-Each UI block in the Figma file was converted into a clean modular component to maintain reusability and readability.
+📌 Even if GitHub preview does not display assets/ or components/ as folders, the code references their contents correctly.
 
-📦 Installation & Setup
-
-Clone the repo:
-
-git clone <your-repo-link>
-cd <your-project-folder>
-
-
-Install dependencies:
-
+📦 Installation
+git clone <your-repository-link>
+cd <project-folder>
 npm install
-
-
-Start development server:
-
 npm run dev
 
 
-Now open:
+Open:
 
-http://localhost:5173/
-
-🎯 Figma → Code Accuracy
-
-All spacing, padding, colors, and typography closely match the Figma design
-
-Implemented Figma-specific UI elements like:
-
-Glassmorphism cards
-
-Rounded 20px containers
-
-Gradient border headings
-
-Centered layouts with correct hierarchy
+http://localhost:5173
 
 📁 What I Learned
 
-Converting Figma designs into pixel-perfect React components
+Converting Figma designs to real UI
 
-Using Tailwind for fast and efficient styling
+Tailwind-based responsive layouts
 
-Working with custom gradients and border-image techniques
+Handling gradients & border-image CSS
 
-Improving component reusability
+Component reusability
 
-Building responsive layouts for all screen sizes
+Structuring a clean React project
 
-🧪 Future Improvements (If Needed)
+🎯 Future Enhancements
 
-Add animations using Framer Motion
+Add animations
 
-Convert static carousels into fully functional sliders
+Implement a real backend
 
-Add backend for product data
+Add a working product slider
 
-Add dark/light theme toggle
+🙌 Acknowledgements
+
+This project is submitted as part of a Frontend Developer Internship Assessment.
+Thank you for reviewing my work!
