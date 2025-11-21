@@ -1,4 +1,4 @@
-import rectangle from "../assets/Rectangle 6[1].png";
+import rectangle from "/Rectangle 6[1].png";
 import { FiSearch, FiShoppingBag } from "react-icons/fi";
 export default function Card({ image, title, price, desc }) {
     return(
@@ -16,4 +16,5 @@ export default function Card({ image, title, price, desc }) {
                   </div>
     </div>
     );
+
 }
